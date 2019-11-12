@@ -1,0 +1,50 @@
+/* .card-body {
+    display: none;
+}
+
+.card-header {
+    cursor: pointer;
+}
+
+.active {
+    display: block;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider i {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    top: 45%;
+}
+
+.right {
+    right: 40px;
+}
+
+.left {
+    left: 40px;
+    display: none;
+}
+
+.images {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.item {
+    width: 25%;
+    height: 100%;
+}
